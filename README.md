@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Challenge AluraFlix
+###### Curso: Especialização Front-end da Alura + Oracle.
+Neste desafio desenvolvemos uma página de e-commerce para listar, cadastrar e deletar produtos utilizando HTML, CSS e JavaScript. Simulamos uma API usando o JSON Server para realizar operações CRUD (Create, Read, Update, Delete) com os dados dos produtos.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+  
+  ![image](https://github.com/user-attachments/assets/49514216-9f9d-4d23-8b6c-c877da5e4a38)
+  ![image](https://github.com/user-attachments/assets/2d64bb17-707b-40ee-8782-966db955ebde)
+  ![image](https://github.com/user-attachments/assets/f0ad73a8-6956-4698-922c-03ff64bf9d57)
+  ![image](https://github.com/user-attachments/assets/52ad3799-0b33-4da1-89e5-85d64eed2e87)
+  ![image](https://github.com/user-attachments/assets/90713606-f367-4413-85dd-1a18d52b3aed)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Dificuldades Enfrentadas 🚧
+Apesar de ter me dedicado ao máximo, algumas funcionalidades não estão funcionando como esperado:
+- **Adicionar novos vídeos:** Não consegui fazer com que os vídeos adicionados aparecessem corretamente no catálogo.
+- **Alteração de categoria ao editar**: Quando um card tem sua categoria alterada, ele acaba sendo excluído, o que não deveria acontecer.
+- **Edições não persistem:** Mesmo após salvar alterações nos cards, elas não são refletidas no catálogo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Aprendizados e Próximos Passos 📚
+Durante o desenvolvimento, aprendi muito sobre React, gerenciamento de estado e integração com APIs. Entretanto, reconheço que ainda preciso melhorar na implementação de algumas lógicas, como:
+* Persistir as alterações feitas nos vídeos.
+* Corrigir a funcionalidade de inclusão de novos vídeos.
+* Ajustar o comportamento da edição de categorias.
