@@ -1,0 +1,33 @@
+:root{
+  --fonte: 'Source Sans Pro', 'Roboto';
+  --branco: #FFFFFF;
+  --preto: #262626 ;
+  --cinza: #F5F5F5;
+}
+
+/*body {
+  margin: 0;
+  font-family: var(--fonte);
+  background-color: var(--preto);
+  color: var(--cinza);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}*/
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte);
+  background-color: var(--preto);
+  color: var(--cinza);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /* Remove a barra de rolagem horizontal */
+  width: 100%; /* Garante que a largura seja 100% */
+  height: 100%; /* Garante que a altura ocupe a tela inteira */
+}

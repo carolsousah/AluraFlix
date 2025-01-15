@@ -1,0 +1,8 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 1.1em 3em;
+    background-color: #000000E5;
+    border-top: 4px solid var(--Blue, #2271D1)
+}
+

@@ -1,0 +1,77 @@
+.capa{
+    width: 100%;
+    height: 832px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; /* Necessário para o título se posicionar em relação ao banner */
+
+}
+
+
+.front {
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 800;
+    width: 296px;
+    height: 92px;
+    border-radius: 15px;
+    background-color: #6BD1FF;
+    margin-left: 40px;
+    color: #F5F5F5;
+    display: flex; /* Habilita o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+
+    margin-top: 368px; /* Define a distância do topo do banner */
+    position: absolute; /* Coloca o título fora do fluxo normal */
+
+}
+
+
+
+
+
+.titulo{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 53.91px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F5F5F5;
+    margin-left: 40px;
+
+    margin-left: 40px; /* A distância do título da borda esquerda */
+    margin-top: 498px; /* Define a distância do topo do banner */
+    position: absolute; /* Coloca o título fora do fluxo normal */
+
+}
+
+
+.texto {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 40px;
+    height: 110px;
+    width: 662px;
+    margin-top: 561px;
+    color: #F5F5F5;
+
+    position: absolute; /* Coloca o título fora do fluxo normal */
+}
+
+.video {
+    width: 556px; /* Largura do vídeo */
+    height: 303px; /* Altura do vídeo */
+    position: absolute; /* Para posicionar em cima do banner */
+    top: 360px; /* Mesma altura do título */
+    right: 40px; /* Distância da borda direita do banner */
+    z-index: 10; /* Faz o vídeo aparecer acima dos outros elementos */
+    border-radius: 10px; /* Arredonda as bordas do vídeo */
+
+    border: 4px solid #6BD1FF; /* Cor da borda azul clara e mais grossa */
+    box-shadow: 0 8px 20px rgba(107, 209, 255, 0.6); /* Sombra azul translúcida */
+
+}

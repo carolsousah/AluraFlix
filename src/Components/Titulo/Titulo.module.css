@@ -1,0 +1,18 @@
+.texto {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    width: 412px;
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F5F5F5;
+    text-align: center;  /* Alinha o texto ao centro */
+
+    display: flex; /* Habilita o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+

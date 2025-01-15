@@ -1,0 +1,9 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 2em;
+    background-color: var(--preto);
+    border-bottom: 4px solid var(--Blue, #2271D1)
+}
+

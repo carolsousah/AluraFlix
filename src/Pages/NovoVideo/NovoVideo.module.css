@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    min-height: 100vh;
+    background-color: #191919;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #F5F5F5;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.description {
+    color: #ccc;
+    font-size: 12px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.cardTitle {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 830px;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 873px;
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /*espaço entre os campos do formulário na mesma linha */
+    margin-bottom: 15px; /* espaço entre as linhas dos campos do formulário */
+}
+
+
+.inputGroup {
+    width: 48%;
+}
+
+/* campos de titulos do formulário */
+label {
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #191919;
+}
+
+.inputField:focus {
+    border-color: #2271D1;
+    outline: none;
+}
+
+/* Ajustando a cor da listagem (Categoria) */
+select {
+    background-color: #191919;
+    color: #FFFFFF; /* Garantindo que as opções tenham a mesma cor */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.save,
+.clear {
+    width: 130px;
+    height: 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #191919;
+    color: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out; /* Adicionando transição suave */
+
+}
+
+
+.save {
+    margin-right: 10px; /* Espaço à direita do botão "Salvar" */
+}
+
+.clear {
+    margin-left: 10px; /* Espaço à esquerda do botão "Limpar" */
+}
+
+/* Efeito de hover e foco nos botões */
+.save:hover,
+.clear:hover {
+    opacity: 0.8;
+    color: #FFFFFF;
+    border-color: #2271D1;
+
+}

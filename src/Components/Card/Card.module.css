@@ -1,0 +1,47 @@
+.container {
+    width: 412px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 5px 15px 15px;
+    overflow: hidden;
+    margin: 5px;
+    position: relative; /* Para permitir controle mais preciso do posicionamento */
+}
+
+/* Ajuste da imagem para um tamanho fixo */
+.capa {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0; /* Retiramos o margin-bottom para evitar a sobreposição */
+}
+
+/* Tarja preta de ícones com controle de margem */
+.icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #000;
+    height: 70px;
+}
+
+.icones img {
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+/* Ajuste do link, se necessário */
+.link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-top: -8px; /* Pequeno ajuste para a tarja não gerar espaçamento extra */
+    margin-bottom: -75px;
+}
+

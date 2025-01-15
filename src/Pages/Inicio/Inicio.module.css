@@ -1,0 +1,45 @@
+.container {
+    display: flex; /* Alinha os itens em linha */
+    flex-wrap: wrap; /* Permite que os cards quebrem para uma nova linha se o espaço acabar */
+    gap: 2px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 30px;  /* Adiciona 40px de espaçamento nas laterais */
+    width: 100%;  /* Garante que ocupe toda a largura */
+
+}
+
+
+/* Seções */
+.front {
+    background-color: #6BD1FF;/* Fundo do titulo da seção card */
+}
+
+.back {
+    background-color: #00C86F; /* Fundo do titulo da seção */
+
+}
+
+.mobile {
+    background-color: #FFBA05;/* Fundo do titulo da seção */
+}
+
+
+
+/* Cards */
+.frontCard {
+    border: 2px solid #006AB6; /* Fronteira para Front End */
+}
+
+.backCard {
+    border: 2px solid #007B3C; /* Fronteira para Back End */
+}
+
+.mobileCard {
+    border: 2px solid #FF8A00; /* Fronteira para Mobile */
+}
+
+
+
+
+/* CSS do Modal de Edição, ou seja, botão de editar */
