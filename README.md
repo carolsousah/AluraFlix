@@ -21,7 +21,7 @@ Apesar de ter me dedicado ao máximo, algumas funcionalidades não estão funcio
 
 
 #### Aprendizados e Próximos Passos 📚
-Durante o desenvolvimento, aprendi muito sobre React, gerenciamento de estado e integração com APIs. Entretanto, reconheço que ainda preciso melhorar na implementação de algumas lógicas, como:
+Durante o desenvolvimento, aprendi sobre React, gerenciamento de estado e integração com APIs. Entretanto, reconheço que ainda preciso melhorar na implementação de algumas lógicas, como:
 * Persistir as alterações feitas nos vídeos.
 * Corrigir a funcionalidade de inclusão de novos vídeos.
 * Ajustar o comportamento da edição de categorias.
